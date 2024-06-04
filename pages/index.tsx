@@ -163,8 +163,12 @@ const Home: NextPage<IHomeProps> = ({ jobs, projects, skills }) => {
 export default Home;
 
 export const getStaticProps: GetStaticProps = async () => {
-  const { error, loading, data } = await api.query({ query: QUERY });
-  const { skills, jobs, projects } = data;
+  // const { error, loading, data } = await api.query({ query: QUERY });
+  // const { skills, jobs, projects } = data;
+
+  const skills: ISkills[] = [];
+  const jobs: IJobs[] = [];
+  const projects: IProjects[] = [];
 
   return {
     props: {
