@@ -99,7 +99,7 @@ export const Contact: NextPage<IContactProps> = ({ theme }) => {
     <>
       <h1 className="contact_heading">Contact Me</h1>
       <div className="contact_email">
-        <img src={Gmail.src} alt="" /> himanshu27kashyap@gmail.com
+        <img src={Gmail.src} alt="" /> webdev0715@gmail.com
       </div>
       {!loading ? (
         <form className="contact_form" autoComplete="off" ref={form}>
