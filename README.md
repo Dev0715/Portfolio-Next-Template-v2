@@ -7,4 +7,4 @@
 
 <br>
 <h2 align="center">Built with Next Js & TypeScript at core.</h2>
-<h2 align="center"><a href="https://"> Live Site </a></h2>
+<h2 align="center"><a href="https://portfolio-next-template-v2.vercel.app/"> Live Site </a></h2>
